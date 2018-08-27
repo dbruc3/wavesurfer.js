@@ -1,6 +1,14 @@
 wavesurfer.js changelog
 =======================
 
+2.0.7 (unreleased)
+------------------
+
+- Add wavesurfer.js logo, created by @entonbiba (#1409)
+- Library version number is now available as `WaveSurfer.VERSION` (#1430)
+- Fix `setSinkId` that used deprecated API (#1428)
+- Set `isReady` attribute to false when emptying wavesufer (#1396, #1403)
+
 2.0.6 (14.06.2018)
 ------------------
 
