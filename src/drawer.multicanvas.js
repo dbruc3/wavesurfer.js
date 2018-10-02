@@ -293,11 +293,8 @@ export default class MultiCanvas extends Drawer {
                 for (i = first; i < last; i += step) {
                     const peak =
                         peaks[Math.floor(i * scale * peakIndexScale)] || 0;
-                    let h = Math.round((peak / absmax) * halfH);
+                    const h = Math.round((peak / absmax) * halfH);
 
-                    if (h <= 0) {
-                        h = 1;
-                    }
                     this.fillRect(
                         i + this.halfPixel,
                         // x
