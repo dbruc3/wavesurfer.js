@@ -1,13 +1,16 @@
 wavesurfer.js changelog
 =======================
 
-2.0.7 (unreleased)
+2.1.0 (29.09.2018)
 ------------------
 
 - Add wavesurfer.js logo, created by @entonbiba (#1409)
 - Library version number is now available as `WaveSurfer.VERSION` (#1430)
 - Fix `setSinkId` that used deprecated API (#1428)
 - Set `isReady` attribute to false when emptying wavesufer (#1396, #1403)
+- Microphone plugin: make it work in MS Edge browser (#627)
+- Timeline plugin: display more tick marks as user zooms in closely (#1455)
+- Cursor plugin: fix `destroy` (#1435)
 
 2.0.6 (14.06.2018)
 ------------------
